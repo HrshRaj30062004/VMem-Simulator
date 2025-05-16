@@ -55,7 +55,7 @@ npm start
 - Built the complete frontend using React  
 - Integrated visualizations, PDF/CSV export, and Chart.js graphs  
 
-### 2) **Aryan Singh**
+### 2) **Manas Srivastava**
 - Contributed to algorithm research and test case development  
 - Assisted in testing and debugging simulation logic  
 
@@ -63,7 +63,7 @@ npm start
 - Participated in frontend design brainstorming  
 - Worked on UI/UX flow and layout improvements  
 
-### 4) **Manas Gupta**
+### 4) **Aryan Kaushal**
 - Managed documentation and feature proposals  
 - Validated output logic and created sample datasets  
 
