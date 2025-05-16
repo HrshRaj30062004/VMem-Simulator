@@ -25,11 +25,11 @@ It features **step-by-step simulation**, **memory frame visualization**, **real-
 
 ### 🖥️ Backend (Node.js + Express)
 
-\`\`\`bash
+```bash
 cd backend  
 npm install  
 npm run dev  
-\`\`\`
+```
 
 > The backend will run on [http://localhost:5000](http://localhost:5000)
 
@@ -37,34 +37,39 @@ npm run dev
 
 ### 💻 Frontend (React)
 
-\`\`\`bash
+```bash
 cd frontend  
 npm install  
 npm start  
-\`\`\`
+```
 
 > ⚠️ Ensure the **backend is running** before starting the frontend.
 
 ---
 
-## 👨‍💻 Team & Role Distribution
+## 👥 Team & Role Distribution
 
-### 1) **Harsh Raj** (Lead Developer)
-- Designed the full-stack architecture  
-- Implemented backend algorithms (FIFO, LRU, Optimal)  
-- Built the complete frontend using React  
-- Integrated visualizations, PDF/CSV export, and Chart.js graphs  
+**Harsh Raj (Lead Developer)**  
+- Designed the overall full-stack architecture  
+- Integrated visualizations, export features (PDF/CSV), and charting with Chart.js  
+- Coordinated project progress and integration efforts  
 
-### 2) **Manas Srivastava**
-- Contributed to algorithm research and test case development  
-- Assisted in testing and debugging simulation logic  
+**Manas Srivastava**  
+- Implemented core backend algorithms (FIFO, LRU, Optimal)  
+- Conducted in-depth research on page replacement algorithms  
+- Created comprehensive test cases to validate simulation accuracy  
+- Assisted in debugging and optimizing backend logic  
 
-### 3) **Swastik Sharma**
-- Participated in frontend design brainstorming  
-- Worked on UI/UX flow and layout improvements  
+**Swastik Sharma**  
+- Developed the frontend application using React  
+- Led frontend design brainstorming sessions  
+- Enhanced UI/UX through layout improvements and usability testing  
+- Collaborated closely on implementing interactive features  
 
-### 4) **Aryan Kaushal**
-- Managed documentation and feature proposals  
-- Validated output logic and created sample datasets  
+**Aryan Kaushal**  
+- Documented project requirements, API contracts, and user guides  
+- Proposed new feature ideas and improvements  
+- Validated simulation output and prepared realistic sample datasets  
+
 
 ---
