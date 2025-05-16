@@ -18,16 +18,20 @@ It supports **step-by-step simulation**, **frame visualization**, and exports re
 cd backend
 npm install
 npm run dev
-Frontend (React)
-bash
-Copy
-Edit
+
+
+###Frontend (React)
+
+```bash
 cd frontend
 npm install
 npm start
+
 ⚠️ Make sure the backend is running on http://localhost:5000 before starting the frontend.
 
-📦 Project Features
+---
+
+### Project Features
 Simulates FIFO, LRU, and Optimal page replacement algorithms
 
 Step-by-step and full simulation modes
@@ -40,8 +44,10 @@ Export results as CSV and PDF
 
 Clean, responsive UI built with React.js
 
-👥 Team & Role Distribution
-🔧 Harsh Raj (Lead Developer)
+---
+
+### Team & Role Distribution
+1) Harsh Raj (Lead Developer)
 Designed full-stack architecture
 
 Implemented all backend algorithms (FIFO, LRU, Optimal)
@@ -52,17 +58,18 @@ Added visualization, PDF/CSV export, and fault tracking
 
 Integrated Chart.js for real-time graph display
 
-👤 Aryan Singh
+2) Aryan Singh
 Contributed to algorithm research & test cases
 
 Helped test and debug simulation correctness
 
-👤 Swastik Sharma
+3) Swastik Sharma
 Participated in frontend design brainstorming
 
 Worked on UI/UX flow and layout suggestions
 
-👤 Manas Gupta
+4) Manas Gupta
 Worked on documentation and feature proposals
 
 Responsible for validating output logic and preparing sample datasets
+---
