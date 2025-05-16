@@ -1,76 +1,70 @@
 # VMem+ — Virtual Memory Page Replacement Simulator
 
-**VMem+** is a web-based simulator built to demonstrate **page replacement algorithms** including:
+**VMem+** is a web-based simulator designed to demonstrate **page replacement algorithms** such as:
 
-- FIFO (First-In-First-Out)  
-- LRU (Least Recently Used)  
-- Optimal
+- **FIFO** (First-In-First-Out)  
+- **LRU** (Least Recently Used)  
+- **Optimal**
 
-It supports **step-by-step simulation**, **frame visualization**, and exports results to **CSV/PDF**, with **live chart tracking** of page faults.
+It features **step-by-step simulation**, **memory frame visualization**, **real-time page fault tracking**, and **export options** for results in **CSV/PDF** formats.
+
+---
+
+## ✨ Features
+
+- Simulates **FIFO**, **LRU**, and **Optimal** page replacement algorithms  
+- Step-by-step **and** full-run simulation modes  
+- Frame-by-frame memory visualization  
+- **Live graph** tracking of page faults using Chart.js  
+- Export simulation results to **CSV** and **PDF**  
+- Clean, responsive **React.js** frontend  
 
 ---
 
 ## 🚀 How to Run the Project
 
-### Backend (Node.js + Express)
+### 🖥️ Backend (Node.js + Express)
 
-```bash
-cd backend
-npm install
-npm run dev
+\`\`\`bash
+cd backend  
+npm install  
+npm run dev  
+\`\`\`
 
----
-
-###Frontend (React)
-
-```bash
-cd frontend
-npm install
-npm start
-
-⚠️ Make sure the backend is running on http://localhost:5000 before starting the frontend.
+> The backend will run on [http://localhost:5000](http://localhost:5000)
 
 ---
 
-### Project Features
-Simulates FIFO, LRU, and Optimal page replacement algorithms
+### 💻 Frontend (React)
 
-Step-by-step and full simulation modes
+\`\`\`bash
+cd frontend  
+npm install  
+npm start  
+\`\`\`
 
-Frame-wise visualization of memory
-
-Real-time page fault tracking graph
-
-Export results as CSV and PDF
-
-Clean, responsive UI built with React.js
+> ⚠️ Ensure the **backend is running** before starting the frontend.
 
 ---
 
-### Team & Role Distribution
-1) Harsh Raj (Lead Developer)
-Designed full-stack architecture
+## 👨‍💻 Team & Role Distribution
 
-Implemented all backend algorithms (FIFO, LRU, Optimal)
+### 1) **Harsh Raj** (Lead Developer)
+- Designed the full-stack architecture  
+- Implemented backend algorithms (FIFO, LRU, Optimal)  
+- Built the complete frontend using React  
+- Integrated visualizations, PDF/CSV export, and Chart.js graphs  
 
-Built complete frontend using React
+### 2) **Aryan Singh**
+- Contributed to algorithm research and test case development  
+- Assisted in testing and debugging simulation logic  
 
-Added visualization, PDF/CSV export, and fault tracking
+### 3) **Swastik Sharma**
+- Participated in frontend design brainstorming  
+- Worked on UI/UX flow and layout improvements  
 
-Integrated Chart.js for real-time graph display
+### 4) **Manas Gupta**
+- Managed documentation and feature proposals  
+- Validated output logic and created sample datasets  
 
-2) Aryan Singh
-Contributed to algorithm research & test cases
-
-Helped test and debug simulation correctness
-
-3) Swastik Sharma
-Participated in frontend design brainstorming
-
-Worked on UI/UX flow and layout suggestions
-
-4) Manas Gupta
-Worked on documentation and feature proposals
-
-Responsible for validating output logic and preparing sample datasets
 ---
