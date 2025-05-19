@@ -50,26 +50,35 @@ npm start
 ## 👥 Team & Role Distribution
 
 **Harsh Raj (Lead Developer)**  
-- Designed the overall full-stack architecture  
-- Integrated visualizations, export features (PDF/CSV), and charting with Chart.js  
-- Coordinated project progress and integration efforts  
+•	Led the requirement analysis and literature review, comparing tools like OS-Sim and OSVis.
+•	Defined project scope, limitations of existing systems, and formulated the feature set.
+•	Supervised development milestones and coordinated integration of various modules.
+•	Implemented the Optimal page replacement algorithm and reviewed others' code.
+•	Collaborated with Swastik Sharma to build the core backend logic ensuring smooth simulation flow.
+
+
 
 **Manas Srivastava**  
-- Implemented core backend algorithms (FIFO, LRU, Optimal)  
-- Conducted in-depth research on page replacement algorithms  
-- Created comprehensive test cases to validate simulation accuracy  
-- Assisted in debugging and optimizing backend logic  
+•	  Designed the core memory model, including page table structure, frame allocation, and access logs.
+•	 Handled the FIFO and LRU algorithm implementations, ensuring modularity and reusability.
+•	  Built the logic for parsing memory reference strings with read/write operations.
+•	  Contributed to debugging and refining algorithm implementations to improve accuracy and efficiency.
+
 
 **Swastik Sharma**  
-- Developed the frontend application using React  
-- Led frontend design brainstorming sessions  
-- Enhanced UI/UX through layout improvements and usability testing  
-- Collaborated closely on implementing interactive features  
+•	 Developed the simulation engine supporting both step-by-step and auto-run modes, enabling flexible user interaction.
+•	 Built the core backend logic in collaboration with Harsh Raj, ensuring seamless integration between the memory algorithms and simulation flow.
+•	  Designed and implemented the input handling system, managing user commands and coordinating with the simulation engine for smooth operation.
+•	  Assisted extensively with unit testing, debugging, and performance tuning of the page replacement algorithms to enhance reliability.
+•	 Worked closely with the frontend team to ensure accurate real-time data updates and synchronization between the backend simulation state and the GUI visualizations.
 
-**Aryan Kaushal**  
-- Documented project requirements, API contracts, and user guides  
-- Proposed new feature ideas and improvements  
-- Validated simulation output and prepared realistic sample datasets  
+
+**Aaryan Kaushal**  
+•	 Created the GUI layout using React.js and Bootstrap, focusing on responsiveness, intuitive design, and user experience.
+  Integrated dynamic page table and frame visualizations with real-time memory updates for clear and interactive simulation feedback.
+•	 Designed and implemented the interface for algorithm selection, memory configuration, and simulation controls, ensuring smooth navigation.
+•	Collaborated with the backend team to synchronize data flow and optimize frontend performance, contributing to iterative UI improvements based on user testing and feedback.
+
 
 
 ---
